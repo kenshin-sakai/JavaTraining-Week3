@@ -8,7 +8,7 @@
 ```powershell
 cd src
 javac -encoding UTF-8 Task.java TaskManager.java TaskApp.java
-java TaskApp
+java TaskApp**```**
 
 ## 工夫した点
 - メニュー番号やタスク番号の入力は Integer.parseInt により数値化し，数値以外の入力は 　　　　　　　　　   NumberFormatException を用いて再入力を促す設計とした．
