@@ -5,10 +5,10 @@ public class Task {
 
     public Task(String title, LocalDate dueDate) {
         if (title == null || title.length() == 0) {
-            throw new IllegalArgumentException("タイトルが空です");
+            throw new IllegalArgumentException();
         }
         if (dueDate == null) {
-            throw new IllegalArgumentException("期限が不正です");
+            throw new IllegalArgumentException();
         }
 
         this.title = title;
